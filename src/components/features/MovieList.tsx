@@ -8,7 +8,7 @@ interface MovieListProps {
     votes: Vote[];
     users: User[];
     currentUserId?: string;
-    type: 'matches' | 'history';
+    type: 'matches' | 'history' | 'user_list';
     onMarkSeen?: (id: string, rating: number) => void;
 }
 
